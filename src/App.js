@@ -7,11 +7,13 @@ import TravelListPage from './pages/TravelListPage';
 import TravelPage from './pages/TravelPage';
 import FooterPage from './pages/FooterPage';
 import NotFoundPage from './pages/NotFoundPage';
+import { Container } from 'react-bootstrap';
 
 function App() {
   return (
     <>
       <Router>
+      <Container fluid='true'>
       <NavBar/>
         <div>
         <Switch>
@@ -23,6 +25,7 @@ function App() {
         </Switch>
         </div>
       <FooterPage/>
+      </Container>
       </Router>
     </>
   );
