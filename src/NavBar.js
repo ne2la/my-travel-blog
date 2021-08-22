@@ -35,7 +35,7 @@ const NavBar = () => {
         <nav className='navbar'>
             <div className='navbar-container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                Explorer Ne2la
+                Ne2la
                 <div className="homeIcon">
                 <i class="far fa-compass"/>
                 </div>
