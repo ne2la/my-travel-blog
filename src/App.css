@@ -1,38 +1,66 @@
-.App {
+@font-face {
+  font-family: myFirstFont;
+  src: url('./fonts/Valeriame1.ttf');
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url('../src/fonts/OpenSans-Regular.ttf');
+}
+
+p{
+  font-family: 'mySecondFont';
+}
+
+.paraDiv{
+  font-family: 'Times New Roman';
+  margin-Right:100px;
+  margin-top: 1%;
+}
+
+html{
+  background-color: rgba(64, 149, 247,0.1);
+}
+
+.travelCard{
+  width: '18rem';
+  margin:'10px'
+}
+
+.travelList-title{
+  font-family: "myFirstFont";
   text-align: center;
+  font-size: 42px;
+  padding: 15px 0px 10px 0px;
+  text-shadow:"0 1px 0 #000";
+  background-color: rgba(64, 149, 247,0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.suggest-title{
+  font-family: "myFirstFont";
+  text-align: left;
+  font-size: 22px;
+  padding: 7px 0px 7px 0px;
+  text-shadow:"0 1px 0 #000";
+  background-color: rgba(64, 149, 247,0.1);
+  padding-left: 3%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.destination-icon{
+  margin-left: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.imageCarousel{
+  width: 650px;
+  height: 600px;
+  margin-left: 10%;
+  margin-right: 5%;
+  float: left;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
