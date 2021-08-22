@@ -9,6 +9,10 @@ const NavBar = () => {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
 
+    if(button){
+        console.log('test Button')
+    }
+
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
