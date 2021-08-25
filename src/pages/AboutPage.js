@@ -13,11 +13,7 @@ const AboutPage = () => {
                 <Card.Img variant="top" src= {abtMeImg} style={{paddingLeft:'30%',paddingRight:'30%',paddingTop:'2%'}}/>
                     <Card.Body>
                         <Card.Text>
-                            I am Madushan Lakshitha Neelananda an Undergraduate
-                            student in Informatics Institute of technology. I'm Creative Full Stack Web Developer. 
-                            A highly organized, dedicated Software Engineer. 
-                            My technical skills include React, HTML, CSS, Java Script, React Native, Node JS, 
-                            Java, Python and much more
+                            ...
 
                         </Card.Text>
                     </Card.Body>
